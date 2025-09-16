@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Big Darko</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; background: #f9f9f9; color: #222; }
+        header { background: #222; color: #fff; padding: 2rem 1rem; text-align: center; }
+        nav { background: #444; padding: 0.5rem; text-align: center; }
+        nav a { color: #fff; margin: 0 1rem; text-decoration: none; }
+        section { max-width: 800px; margin: 2rem auto; background: #fff; padding: 2rem; border-radius: 8px; }
+        h2 { color: #333; }
+        .portfolio, .testimonials, .blog { display: grid; gap: 1rem; }
+        .portfolio { grid-template-columns: 1fr 1fr; }
+        .portfolio-item, .testimonial, .blog-post { background: #f1f1f1; padding: 1rem; border-radius: 6px; }
+        .social-links a { margin-right: 1rem; }
+        .cta { text-align: center; margin: 2rem 0; }
+        .cta a { background: #0078d7; color: #fff; padding: 1rem 2rem; border-radius: 4px; text-decoration: none; }
+        @media (max-width: 600px) {
+            .portfolio { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Emmanuel Ofori Darko</h1>
+        <p>Student | Aspiring Data-Scientist | Aspiring Cyber Security Professional</p>
+    </header>
+    <nav>
+        <a href="#bio">Bio</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#pitch">Elevator Pitch</a>
+        <a href="#contact">Contact</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#blog">Blog</a>
+        <a href="#social">Social</a>
+        <a href="#resume">Resume</a>
+        <a href="#cta">Hire Me</a>
+    </nav>
+
+    <section id="bio">
+        <h2>Bio</h2>
+        <p>
+            Hi, Darko Emmanuel Ofori here, a student of the prestigious University of Ghana. I’m a motivated university student aspiring to become a data scientist and cybersecurity professional. Currently developing skills in Python, SQL, and other programming languages, with a strong interest in data analysis, problem-solving and digital security. I’m passionate about learning and applying new technologies to address real-world challenges while building a solid technical foundation for future career growth.
+
+        </p>
+        <p>
+            Passionate About Data, Driven by Security
+        </p>
+    </section>
+
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="portfolio">
+            <div class="portfolio-item">
+                <h3>Project Alpha</h3>
+                <p>React/Node.js SaaS platform for project management. <a href="#">View Project</a></p>
+            </div>
+            <div class="portfolio-item">
+                <h3>Beta Blog</h3>
+                <p>Personal tech blog built with Gatsby and GraphQL. <a href="#">View Project</a></p>
+            </div>
+            <div class="portfolio-item">
+                <h3>Gamma Shop</h3>
+                <p>E-commerce site using Django and Stripe integration. <a href="#">View Project</a></p>
+            </div>
+            <div class="portfolio-item">
+                <h3>Delta Dashboard</h3>
+                <p>Analytics dashboard with D3.js and Flask backend. <a href="#">View Project</a></p>
+            </div>
+        </div>
+    </section>
+
+    <section id="pitch">
+        <h2>Elevator Pitch</h2>
+        <p>
+            I’m an aspiring data science and cybersecurity professional, passionate about helping organizations unlock insights from data while strengthening digital security. I’m building expertise in data-driven problem solving and resilient system design — with the goal of creating secure, impactful digital solutions.
+        </p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Information</h2>
+        <p>Call: <a href="https://wa.me/233591083054">0591083054</a></p>
+        <p>Email: <a href="mailto: darkoemmanuelofori@gmail.com">darkoemmanuelofori@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/emmanuel-ofori-darko-1b8617373/" target="_blank">linkedin.com/in/emmanuel-ofori-darko</a></p>
+        <p>Location: Accra, Ghana</p>
+    </section>
+
+    <section id="testimonials">
+        <h2>Testimonials & Recommendations</h2>
+        <div class="testimonials">
+            <div class="testimonial">
+                <p>"Emmanuel is a phenomenal developer and team player. He consistently delivers high-quality work and innovative solutions." <br>— Joel Osei Aidoo, CTO at TechCorp</p>
+            </div>
+            <div class="testimonial">
+                <p>"His encouragement helped me grow as a developer. Highly recommended!" <br>— Marian Bruce, Junior Developer</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="blog">
+        <h2>Blog/Expertise</h2>
+        <div class="blog">
+            <div class="blog-post">
+                <h3>Modern React Patterns</h3>
+                <p>Exploring hooks, context, and performance optimization in React. <a href="#">Read More</a></p>
+            </div>
+            <div class="blog-post">
+                <h3>Scaling Node.js Applications</h3>
+                <p>Best practices for building scalable backend systems. <a href="#">Read More</a></p>
+            </div>
+            <div class="blog-post">
+                <h3>Effective Remote Collaboration</h3>
+                <p>Tips and tools for productive remote software teams. <a href="#">Read More</a></p>
+            </div>
+        </div>
+    </section>
+
+    <section id="social">
+        <h2>Social Media Links</h2>
+        <div class="social-links">
+            <a href="https://wa.me/233591083054" target="_blank">Whatsapp</a>
+            <a href="https://www.linkedin.com/in/emmanuel-ofori-darko-1b8617373/" target="_blank">LinkedIn</a>
+            <a href="https://www.instagram.com/official_eodarko?igsh=MW5yNWU2a2pyM3Rzag%3D%3D&utm_source=qr" target="_blank">Instagram</a>
+        </div>
+    </section>
+
+    <section id="resume">
+        <h2>Resume / CV</h2>
+        <p>
+            <a href="resume.pdf" target="_blank">Download my Resume (PDF)</a>
+        </p>
+        <ul>
+            <li>B.Sc. in Actuarial Science (In Progress), [University of Ghana], Expected [October, 2028]</li>
+            <li>Cybersecurity (In progress), ALX Africa, Expected [May, 2026]
+            <li>Relevant Coursework: Data Science, Cybersecurity, Algorithms, Databases, Mathematics, Statistics and Probability</li>
+            <li>Projects: Predictive Analytics Model | Secure Login System </li>
+            <li>Skills: Python, SQL, Pandas, Scikit-learn, Cybersecurity Fundamentals, Linux</li>
+        </ul>
+
+    </section>
+
+    <section id="cta" class="cta" style="text-align: center;">
+        <h2>Let's Work Together!</h2>
+        <p>Ready to start your next project or need a tech mentor?</p>
+        <a href="mailto:darkoemmanuelofori@gmail.com">Contact Me</a>
+
+    </section>
+
+  <footer>
+        &copy; <span id="year"></span> Emmanuel Ofori Darko, Inc.             All rights reserved.
+    </footer>
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
